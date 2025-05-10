@@ -1,0 +1,15 @@
+(Start)
+   ↓
+[Utilisateur remplit le formulaire]
+   ↓
+{Email déjà utilisé ?}
+   ↙️            ↘️
+[Afficher erreur]   [Hasher le mot de passe]
+                         ↓
+                [Sauvegarder dans DB]
+                         ↓
+                 [Générer un token JWT]
+                         ↓
+              [Retourner une réponse OK]
+                         ↓
+                       (End)
